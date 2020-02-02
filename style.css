@@ -1,9 +1,14 @@
-
+html, body {
+	background: #fcfdff;
+	margin: 0;
+}
 body,h1,h2,h3,h4,h5 {
     font-family: "Poppins", sans-serif;
+    color: #0a0a0a;
 }
 body {
-    font-size:12px;
+    font-size:16px;
+    color: #c9a3c1;
 }
 .w3-half img {
     margin-bottom:-6px;
@@ -29,11 +34,14 @@ body {
 }
 .round {
     width:50px;
-    border:5px solid black;
+    border:5px solid pink;
 }
 .work {
     margin-top:75px;
 }
 .style {
     margin-top:75px;
+}
+.tab {
+    color: white;
 }
